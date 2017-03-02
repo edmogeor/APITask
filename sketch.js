@@ -5,7 +5,6 @@ function setup() {
   resizeCanvas(1000,1000);
   img = loadImage("assets/ISS.png")
   bg = loadImage("assets/background.jpg");
-  setInterval(loadISS, 1000);
 }
 
 function loadISS() {
